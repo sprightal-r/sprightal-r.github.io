@@ -137,4 +137,12 @@ p > a:hover {
 		flex-direction: column;
 		justify-content: flex-start;
 	}
+	
+	header {
+		gap: 5px;
+	}
+	
+	.quote-container {
+		gap: 10px;
+	}
 }
