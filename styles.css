@@ -62,8 +62,7 @@ main {
 }
 
 section {
-    padding: 4rem 0;
-    text-align: center;
+    padding: 1rem 0;
 }
 
 h2 {
@@ -73,9 +72,27 @@ h2 {
 }
 
 p {
-    max-width: 600px;
-    margin: 0 auto;
+    margin: 0;
     font-size: 1.1rem;
+}
+
+#credentials {
+	text-align: center;
+}
+
+#quote {
+	font-size: 1.5rem;
+}
+
+#author {
+	font-size: 1.2rem;
+}
+
+.row-container {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: space-between;
 }
 
 .portfolio-grid {
@@ -87,9 +104,12 @@ p {
 
 .portfolio-item {
     background: rgba(255, 255, 255, 0.1);
-    padding: 2rem;
+    padding: 1.2rem;
     border-radius: 8px;
+    font-size: 1.2rem;
     transition: transform 0.3s;
+    text-align: center;
+    cursor: pointer;
 }
 
 .portfolio-item:hover {
@@ -104,10 +124,10 @@ footer {
 }
 
 a {
-    color: #00d4ff;
+    color: white;
     text-decoration: none;
 }
 
-a:hover {
+p > a:hover {
     text-decoration: underline;
 }
